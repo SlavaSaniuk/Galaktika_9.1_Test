@@ -2,7 +2,7 @@
 <Viper Version="5005020000">
 	<ProjectManager>
 		<ProjectName>Galaktika_9.1_Test</ProjectName>
-		<ActiveIndex>2</ActiveIndex>
+		<ActiveIndex>9</ActiveIndex>
 		<ProjectVarList>
 			<ProjectVar Name="$[GalExe]" Value="\\GAL_SERV9\Gal910_TEST\exe\"/>
 			<ProjectVar Name="$[Tmp]" Value="D:\01_DEV\Galaktika_9.1_Test\Tmp\"/>
@@ -459,7 +459,7 @@
 		</ProjectItems>
 		<CanLoadFiles>0</CanLoadFiles>
 		<CompileMessengerList>
-			<CompileMessenger Name="D:\01_DEV\Galaktika_9.1_Test\Projects\MS_SEL_BUY\ms_sell_buy.prj" DateTimeStart="44666,5738393981" DateTimeCompile="0,000142083335958887" StateHistory="False">
+			<CompileMessenger Name="D:\01_DEV\Galaktika_9.1_Test\Projects\MS_SEL_BUY\ms_sell_buy.prj" DateTimeStart="44666,6439943866" DateTimeCompile="0,000218576387851499" StateHistory="False">
 				<CompileMessageList>
 					<CompileMessage MessageType="mtWarning" MessageText=" онстанта &quot;stMask&quot; уже определена : stMask : Integer = -3; повторное определение игнорируетс€" SourceFileName="D:\01_DEV\00_GAL_SRC\TEST\INC\ZARPL\WT.INC" SourceLine="11" SourceColumn="12">
 						<StackIncludeList>
@@ -3349,12 +3349,12 @@
 					<CompileMessage MessageType="mtWarning" MessageText="«начение преобразовано к строке" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfArenda2022_frm.frm" SourceLine="200" SourceColumn="84"/>
 					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение строки к числу" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfArenda2022_frm.frm" SourceLine="202" SourceColumn="109"/>
 					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение строки к числу" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfArenda2022_frm.frm" SourceLine="211" SourceColumn="109"/>
-					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение типа с возможной потерей точности (ShortString -&gt; AnsiChar)" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfElEnergy2022_rtf.rtf" SourceLine="92" SourceColumn="12"/>
-					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение типа с возможной потерей точности (ShortString -&gt; AnsiChar)" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfElEnergy2022_rtf.rtf" SourceLine="102" SourceColumn="12"/>
-					<CompileMessage MessageType="mtWarning" MessageText="«начение преобразовано к строке" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfArendaAms2021_rtf.rtf" SourceLine="93" SourceColumn="54"/>
-					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение строки к числу" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfArendaAms2021_rtf.rtf" SourceLine="93" SourceColumn="54"/>
+					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение типа с возможной потерей точности (ShortString -&gt; AnsiChar)" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfElEnergy2022_rtf.rtf" SourceLine="93" SourceColumn="12"/>
+					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение типа с возможной потерей точности (ShortString -&gt; AnsiChar)" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfElEnergy2022_rtf.rtf" SourceLine="103" SourceColumn="12"/>
+					<CompileMessage MessageType="mtWarning" MessageText="«начение преобразовано к строке" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfArendaAms2021_rtf.rtf" SourceLine="94" SourceColumn="54"/>
+					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение строки к числу" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\SF\ms_sellBuy_sfArendaAms2021_rtf.rtf" SourceLine="94" SourceColumn="54"/>
 					<CompileMessage MessageType="mtWarning" MessageText="ѕриведение строки к числу" SourceFileName="D:\01_DEV\GALAKTIKA_9.1_TEST\PROJECTS\MS_SEL_BUY\FRM\ACTS\ms_sellBuy_actUslugMsUnitsPodpis_rtf.rtf" SourceLine="143" SourceColumn="49"/>
-					<CompileMessage MessageType="mtEndCompile" MessageText="15.04.2022 13:46:32"/>
+					<CompileMessage MessageType="mtEndCompile" MessageText="15.04.2022 15:27:40"/>
 				</CompileMessageList>
 			</CompileMessenger>
 		</CompileMessengerList>

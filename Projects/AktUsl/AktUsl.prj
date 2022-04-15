@@ -1,0 +1,18 @@
+#param /linc:""
+#statusline "statgal"
+
+#include galnet.inc end;
+#include glovars.inc
+
+#include FeeSigners.vih
+
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_SIGN_AKTS_2020_M1.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_SIGN_AKTS_2020_M2.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_AKTS_2020_M1.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_AKTS_2020_M1_NewNew.rtf"
+// Пересено в проект MS_SELL_BUY (ms_sellBuy_actUslugMsMues6_rtf.rtf)
+!#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_AKTS_2020_NewNew_M6.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_AKTS_2020_NewNew_M5.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_AKTS_2020_M1_P.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_AKTS_2020_arenda.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\AktUsl\Frm\AKTDOUSL_AKTS_2021_arenda.rtf"

@@ -1,0 +1,15 @@
+#param /linc:""
+#statusline "statgal"
+
+#include galnet.inc end;
+#include glovars.inc
+#include glotypes.inc
+
+//*************************************
+// €Š‹€„›… € ‚“’……… ……Œ…™…ˆ…
+// š…Š’‚ ‘‚›• ‘…„‘’‚
+//*************************************
+
+//#make "Frm\GroupOs_01a_Bel_rtf_s1305_MC_1.rtf"
+#make "Frm\GroupOs_01a_Bel_rtf_2021_MC.rtf"
+#make "Frm\MS80GROUPOS2.rtf" // ”®à¬  ü ‘-2

@@ -1,0 +1,21 @@
+#param /linc:""
+#statusline "statgal"
+
+#include galnet.inc end;
+#include glovars.inc
+
+
+! Счёт фактура (Аренда АМС) 2020_1 для Пукало
+#make "e:\03VIP\GAL910TEST\Projects\SchetAMC\Frm\PRBDOC_SCHET_2020_2.rtf"
+! Счёт фактура (Юниты) для Покрамович
+#make "e:\03VIP\GAL910TEST\Projects\SchetAMC\Frm\PRBDOC_SCHET_2020_u.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\SchetAMC\Frm\PRBDOC_SCHET_MGL_2020.rtf"
+#make "e:\03VIP\GAL910TEST\Projects\SchetAMC\Frm\PRBDOC_SCHET_MGLV_PRBDOC_2020.rtf"
+!#make "e:\03VIP\GAL910TEST\Projects\SchetAMC\Frm\PRBDOC_SCHET_MGL_2018_PRBDOC_2020.rtf"
+!#make "e:\03VIP\GAL910TEST\Projects\SchetAMC\Frm\AKTDOUSL_SIGN_AKTS_2020.rtf"
+
+
+
+
+
+

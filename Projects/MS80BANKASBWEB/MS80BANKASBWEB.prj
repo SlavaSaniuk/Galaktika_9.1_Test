@@ -1,0 +1,24 @@
+!#include Predefs.inc
+#include glotypes.inc
+
+// ***********************************
+// Проект: Реестры по перечислениям для АСБ "Беларусбанк"
+// Путь: Заработная плата -> Отчеты -> Отчеты по оплате труда с персоналом -> Реестры по перечислениям
+// -> [Выбор реестра] -> Печать -> Печать -> [Параметры печати] -> Текст
+
+// ***********************************
+!сдесь описаны объекты
+!строковые функции
+!Функции для целевого учета
+!сдесь описаны диалоги
+#include c_common.vil 
+#include Z_Katpodr.vil
+#include z_staffcat.vil
+
+!формы
+#make "e:\03VIP\GAL910TEST\Projects\MS80BANKASBWEB\Frm\bank.dlg"
+#make "e:\03VIP\GAL910TEST\Projects\MS80BANKASBWEB\Frm\MS_reestr_zar.frm"
+#make "e:\03VIP\GAL910TEST\Projects\MS80BANKASBWEB\Frm\MS_reestr_av.frm"
+#make "e:\03VIP\GAL910TEST\Projects\MS80BANKASBWEB\Frm\MS_reestr_alim.frm"
+#make "e:\03VIP\GAL910TEST\Projects\MS80BANKASBWEB\Frm\MS_reestr_ot.frm"
+#make "e:\03VIP\GAL910TEST\Projects\MS80BANKASBWEB\Frm\reestr_na_kart-schet.frm" // МС Реестр на карт - счет

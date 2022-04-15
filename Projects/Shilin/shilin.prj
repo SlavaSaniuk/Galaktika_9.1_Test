@@ -1,0 +1,90 @@
+#param /linc:""
+#statusline "statgal"
+
+#include galnet.inc end;
+#include glovars.inc
+//#include ExcelFormat.vih
+
+#include glotypes.inc
+
+#include e:\03VIP\GAL910TEST\Projects\Shilin\rep_table.tbl
+#include KatOrgAttr.vih
+#include extattr.vih
+#include adrfunc.vih
+#include SpecialPropetiesForG.vih
+#include TDogovor.vih
+#include ExcelFormat.inc
+// Проверка параметров вызова:
+#include F_BuhSchet.vil
+#include F_PlansSch.vil
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\ExKAU\*.vip"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\ExKAU\*.frm"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\ExKAU\*.ard"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\MakeKAUForMC\*.vip"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\MakeKAUForMC\*.frm"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\MakeKAUForMC\*.ard"
+
+//#make "e:\03VIP\GAL910TEST\Projects\Shilin\Copy_oborot\*.dlg"
+//#make "e:\03VIP\GAL910TEST\Projects\Shilin\Copy_oborot\*.frm"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Make_Oborot_from_ost\Src\*.dlg"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Make_Oborot_from_ost\Src\*.slk"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Akt_Spis_instr\Src\*.rtf"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Akt_Usl\Podpisanty\*.vip"
+// Пересено в проект MS_SELL_BUY (ms_sellBuy_actUslugMs*)
+!#make "e:\03VIP\GAL910TEST\Projects\Shilin\Akt_Usl\*.rtf"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\DO\*.rtf"
+
+//#make "e:\03VIP\GAL910TEST\Projects\Shilin\OS\*.rtf"
+//#make "e:\03VIP\GAL910TEST\Projects\Shilin\OS\OS6\*.rtf"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\RU_ZAR\*.vip"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Order\*.rtf"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Avto\*.rtf"
+
+/* ********************************************
+ * ********************************************
+ * ************* РАЗДЕЛЬНЫЙ УЧЕТ **************
+ * ********************************************
+ * ********************************************
+*/
+
+// ***********************************************************************
+// Интерфейс "Загрузка справок 98x"
+// ***********************************************************************
+// был перенесен в компонент MS80RUZAT98X
+//#make "e:\03VIP\GAL910TEST\Projects\Shilin\Imp_spav_98_\*.vip"
+
+// ************************************************************************
+// Интерфейс: "Раздельный учет. Формирование и выгрузка данных из проводок (ОС и НМА)"
+// ************************************************************************
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\RU_OS\ru_os.vip"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\RU_OS\urep_ru_os.vip"
+
+// ************************************************************************
+// Интерфейс: "Раздельный учет. Формирование и выгрузка данных из проводок (Затраты, Зарплата)"
+// ************************************************************************
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\RU\urep_ru.vip"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\RU\ru.vip"
+
+#make "D:\Work\Viper_Project\Temp\*.slk"
+// *** Перенесено в проект "ms_sell_buy"
+//#make "e:\03VIP\GAL910TEST\Projects\Shilin\DO\Arenda\*.frm"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Reestr_PlPor\*.frm"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\SFO\*.frm"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Nezemnal_OS\*.dlg"
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Nezemnal_OS\*.vip"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Sklad\*.frm"
+
+#make "e:\03VIP\GAL910TEST\Projects\Shilin\Zar\*.frm"

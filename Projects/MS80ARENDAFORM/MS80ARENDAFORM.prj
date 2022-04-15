@@ -1,0 +1,12 @@
+#define ComponentVersion 
+#param /linc:""
+
+#statusline "statgal"
+#include galnet.ccm
+#include galnet.csc
+end;
+
+#include KatOrgAttr.vih
+#include ExtAttr.vih
+
+#make "e:\03VIP\GAL910TEST\Projects\MS80ARENDAFORM\Frm\*.frm"

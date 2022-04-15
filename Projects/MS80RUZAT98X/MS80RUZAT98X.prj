@@ -1,0 +1,12 @@
+#define ComponentVersion 
+#param /linc:""
+
+#statusline "statgal"
+
+#include galnet.inc end;
+#include glovars.inc
+
+#include glotypes.inc
+#include extattr.vih
+
+#make "E:\03VIP\GAL910TEST\Projects\MS80RUZAT98X\*.vip"
